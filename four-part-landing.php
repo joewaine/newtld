@@ -1,4 +1,9 @@
-<section class="class-on-off-switch">
+<?php if(get_sub_field('anchor_tag')){?>
+  <section id="<?php the_sub_field('anchor_tag') ?>" class="class-on-off-switch">
+<?php }else{ ?>
+  <section class="class-on-off-switch">
+<?php } ?>
+
   <div class="container">
     <div class="row">
       <div class="col-md-6"><div class="landing-panel blue-green-grad"><h4>1</h4>

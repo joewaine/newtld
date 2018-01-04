@@ -1,4 +1,9 @@
-<section id="domains-in-action" class="related-articles-3-col domain-info-panel orange-yellow-grad class-on-off-switch">
+<?php if(get_sub_field('anchor_tag')){?>
+<section id="<?php the_sub_field('anchor_tag') ?>" id="domains-in-action" class="related-articles-3-col domain-info-panel orange-yellow-grad class-on-off-switch domains-in-action">
+<?php }else{ ?>
+<section class="related-articles-3-col domain-info-panel orange-yellow-grad class-on-off-switch domains-in-action">
+<?php } ?>
+
 <div class="container">
 <div class="row no-lr-margin text-center">
 <h4 class="articles-header white-text">

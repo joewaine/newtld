@@ -1134,3 +1134,13 @@ if( function_exists('acf_add_options_page') ) {
   acf_add_options_sub_page('header');
 
 }
+?>
+<!-- add image crop function for plugin -->
+<?php
+add_action(‘acf/register_fields’, ‘my_register_fields’);
+
+function my_register_fields()
+{
+include_once(‘acf-image-crop/acf-image-crop.php’);
+}?>
+

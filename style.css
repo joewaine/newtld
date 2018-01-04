@@ -1133,6 +1133,12 @@ h3.ui-accordion-header{
 }
 
 
+
+.white-rnd-button{
+    cursor: pointer;
+}
+
+
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 300%;
@@ -1594,10 +1600,8 @@ outline:0 !important;
 
 
 .site-image{
-background:green;
-
+background:transparent;
 height:315px;
-
 margin-top: 5px;
 margin-bottom: 5px;
 position: relative;
@@ -3508,11 +3512,11 @@ float: right;
 }
 
 #searchsubmit{
-        float: right;
-            border-radius: 0;
-font-weight: bold;
-height: 40px;
-                font-size: 10px;
+    float: right;
+    border-radius: 0;
+    font-weight: bold;
+    height: 40px;
+    font-size: 10px;
     text-transform: uppercase;
 }
 
@@ -3578,8 +3582,10 @@ height: 40px;
 
 
 .header-brand-logo{
-    width: 80px;
+    width: 120px;
+    /*height: 130px;*/
     float: right;
+    margin-top: 88px;
 }
 
 
@@ -3787,7 +3793,8 @@ h4.articles-header{
 .example-sites .landing-panel,
 .related-articles-3-col .landing-panel{
     padding: 0px 15px 30px 15px;
-    height: 375px;
+    /*height: 375px;*/
+    min-height: 375px;
 }
 
 /*
@@ -4001,6 +4008,14 @@ a.more-articles{
 @media screen and (max-width: 768px){
 
 
+
+    .header-brand-logo{
+    float: left;
+    margin-top: 40px;
+}
+
+
+
 .info-list .row{
     width: 100%;
 
@@ -4137,4 +4152,28 @@ section {
     display: inline-block;
 }
 
+@media screen and (max-width: 1088px){
+#type2 #site-navigation form{
+        display: none;
+    }
+}
+
+
+
+
+#type2 .mobile-accordion li.menu-item{
+    padding: 10px;
+
+}
+
+#type2 .mobile-accordion li.menu-item a{
+        color: #009abf;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+}
+
+
+.search-bar #searchsubmit.searchsubmit{
+    padding-top: 12px;
+}
 

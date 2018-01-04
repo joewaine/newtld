@@ -8,6 +8,7 @@
 
 	get_header(); ?>
 
+
       <div class="row">
 
         <div class="col-sm-12 blog-main" style="padding-top:100px;">

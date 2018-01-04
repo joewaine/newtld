@@ -1,5 +1,8 @@
-<section class="related-articles-3-col">
-
+<?php if(get_sub_field('anchor_tag')){?>
+  <section id="<?php the_sub_field('anchor_tag') ?>" class="related-articles-3-col">
+<?php }else{ ?>
+  <section class="related-articles-3-col">
+<?php } ?>
 
 <div class="container">
 <div class="row text-right no-lr-margin">

@@ -13,10 +13,6 @@
 
 	get_header(); ?>
 
-
-
-
-
   <?php include 'flex-content.php' ?>
 
 

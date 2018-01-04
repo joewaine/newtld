@@ -12,6 +12,10 @@
 <!-- updated fields -->
 <!--whatsup this is staging -->
   <head>
+
+
+
+
 <?php if ( wp_is_mobile() ){ ?>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <?php }else{?>
@@ -359,6 +363,17 @@ if( have_rows('modules') ):
         if( get_row_layout() == 'page_header' ):
 ?>
 
+
+
+<?php if(is_search()){ ?>
+
+<?php }else{ ?>
+
+
+
+
+
+
 <header class="revert-second-menu" id="pageHeader" style="background-image: url(<?php the_sub_field('background_image') ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
   <img class="desktop-header-image" src="<?php the_sub_field('background_image') ?>" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
   <div id="pageHeaderContent">
@@ -379,7 +394,7 @@ if( have_rows('modules') ):
   </div>
 </header>
 
-
+<?php  } ?>
 
 
 <?php elseif( get_row_layout() == 'video_header' ): ?>

@@ -1,5 +1,8 @@
-<!-- <header class="revert-second-menu example-sites articles-resources" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;"> -->
-<header class="revert-second-menu example-sites articles-resources class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+<?php if(get_sub_field('anchor_tag')){?>
+  <header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu example-sites articles-resources class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+<?php }else{ ?>
+  <header class="revert-second-menu example-sites articles-resources class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+<?php } ?>
 
 
 <div class="container bg-white">

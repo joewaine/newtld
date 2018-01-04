@@ -1,4 +1,9 @@
+<?php if(get_sub_field('anchor_tag')){?>
+<section id="<?php the_sub_field('anchor_tag') ?>" class="related-articles-3-col domain-info-panel blue-green-grad class-on-off-switch">
+<?php }else{ ?>
 <section class="related-articles-3-col domain-info-panel blue-green-grad class-on-off-switch">
+<?php } ?>
+
 <div class="container">
 <div class="row text-right no-lr-margin">
 <h4 class="articles-header white-text">
