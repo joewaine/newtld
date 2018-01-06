@@ -1,27 +1,31 @@
 <?php if(get_sub_field('anchor_tag')){?>
   <section id="<?php the_sub_field('anchor_tag') ?>" class="class-on-off-switch">
 <?php }else{ ?>
-  <section class="class-on-off-switch">
+  <section class="class-on-off-switch four-part-landing">
 <?php } ?>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-6"><div class="landing-panel blue-green-grad"><h4>1</h4>
-<p>See how others are embracing new domains</p><a class="cta-link" href="">LEARN MORE <i class="fa fa-chevron-right"></i></a>
 
-
+<?php
+$greenDomainCategory = get_sub_field('green_domain_categories_category_panel');
+ if( $greenDomainCategory ){
+?>
+<div class="col-md-6"><div class="landing-panel blue-green-grad">
+<h4><?php echo $greenDomainCategory['title_text']; ?></h4>
+<p><?php echo $greenDomainCategory['description_field']; ?></p><a class="cta-link" href="<?php echo $greenDomainCategory['link_url']; ?>">
+<?php echo $greenDomainCategory['link_text']; ?> <i class="fa fa-chevron-right"></i></a>
 <!-- carousel -->
 <div class="carousel-domain-landing" style="text-align:center;">
 <div class="owl-carousel owl-theme">
+<?php // check if the repeater field has rows of data
+if( $greenDomainCategory['domain_carousel']){
+foreach ($greenDomainCategory['domain_carousel'] as &$value) { ?>
     <div class="item">
-      <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb" style="display: block;width: 175px;height: 143px;margin: 0 auto;">
-      asdf
-    </div>
-    <div class="item">
-      <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb" style="display: block;width: 175px;height: 143px;margin: 0 auto;">
-      thrbr
-    </div>
-
+      <img src="<?php echo $value['category_icon']; ?>" alt="<?php echo $value['category_text']; ?>" style="display: block;width: 175px;height: 143px;margin: 0 auto;">
+      <a href="<?php echo $value['category_link']; ?>"><?php echo $value['category_text']; ?></a>
+</div>
+<?php }} ?>
 </div>
 </div>
 <!-- carousel -->
@@ -29,24 +33,64 @@
 
 
       </div></div>
-      <div class="col-md-6"><div class="landing-panel purple-pink-grad"><h4>2</h4>
-<p>See how others are embracing new domains</p><a class="cta-link" href="">LEARN MORE <i class="fa fa-chevron-right"></i></a>
-      </div></div>
+
+
+<?php } ?>
+
+<?php
+$purplePremiumDomains = get_sub_field('purple_premium_domains_panel');
+ if( $purplePremiumDomains ){
+?>
+      <div class="col-md-6"><div class="landing-panel purple-pink-grad">
+        <h4><?php echo $purplePremiumDomains['title_text']; ?></h4>
+<p>
+  <?php echo $purplePremiumDomains['description_field']; ?>
+</p><a class="cta-link" href="<?php echo $purplePremiumDomains['link_url']; ?>">
+<?php echo $purplePremiumDomains['link_text']; ?> <i class="fa fa-chevron-right"></i>
+</a>
+<br>
+<br>
+<div class="premium-domains text-center">
+<a href="<?php echo $purplePremiumDomains['cta_url']; ?>">
+  <?php echo $purplePremiumDomains['cta_text']; ?>
+</a>
+</div>
+      </div>
+    </div>
+
+
+
+
+<?php } ?>
+
+
+
+
+
     </div>
 <div class="row">
-      <div class="col-md-6"><div class="landing-panel orange-yellow-grad"><h4>1</h4>
-<p>See how others are embracing new domains</p><a class="cta-link" href="">LEARN MORE <i class="fa fa-chevron-right"></i></a>
 
+
+<?php
+$orangeDomainsPanel = get_sub_field('orange_domains_in_action_panel');
+ if( $orangeDomainsPanel ){
+?>
+
+
+      <div class="col-md-6"><div class="landing-panel orange-yellow-grad">
+        <h4><?php echo $orangeDomainsPanel['title_text']; ?></h4>
+<p>
+  <?php echo $orangeDomainsPanel['description_field']; ?>
+</p><a class="cta-link" href="<?php echo $orangeDomainsPanel['link_url']; ?>"><?php echo $orangeDomainsPanel['link_text']; ?> <i class="fa fa-chevron-right"></i></a>
 
 <!-- three buttons -->
-
 <div class="row mt50">
       <div class="col-xs-12 col-sm-4">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
-<i class="fa fa-globe" aria-hidden="true"></i>
+<i class="fa fa-<?php echo $orangeDomainsPanel['white_left_button_fa_icon']; ?>" aria-hidden="true"></i>
 <div class="item-link">
-<a class="type-link" href="">websites ></a>
+<a class="type-link" href="<?php echo $orangeDomainsPanel['white_left_button_url']; ?>"><?php echo $orangeDomainsPanel['white_left_button_text']; ?> ></a>
       </div>
       </div>
 
@@ -54,9 +98,9 @@
       <div class="col-xs-12 col-sm-4">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
-<i class="fa fa-share" aria-hidden="true"></i>
+<i class="fa fa-<?php echo $orangeDomainsPanel['white_center_button_fa_icon']; ?>" aria-hidden="true"></i>
 <div class="item-link">
-<a class="type-link" href="">redirects ></a>
+<a class="type-link" href="<?php echo $orangeDomainsPanel['white_center_button_url']; ?>"><?php echo $orangeDomainsPanel['white_center_button_text']; ?> ></a>
       </div>      </div>
 
 </div>
@@ -65,11 +109,9 @@
 <img class="icon" src="" alt="">
 
 
-<i class="fa fa-link" aria-hidden="true"></i>
-
-
+<i class="fa fa-<?php echo $orangeDomainsPanel['white_right_button_fa_icon']; ?>" aria-hidden="true"></i>
 <div class="item-link">
-<a class="type-link" href="">branded short links ></a>
+<a class="type-link" href="<?php echo $orangeDomainsPanel['white_right_button_url']; ?>"><?php echo $orangeDomainsPanel['white_right_button_text']; ?> ></a>
 </div>
       </div>
 
@@ -86,29 +128,44 @@
 
 
    </div>
-      <div class="col-md-6"><div class="landing-panel l-grey">
 
-<div class="top-links">articles | examples | testimonials</div>
+<?php } ?>
 
+<?php $greyResourcesPanel = get_sub_field('grey_resources_panel');
+ if( $greyResourcesPanel ){
+?>
+  <div class="col-md-6"><div class="landing-panel l-grey">
 
-<img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb">
-        <h4>2</h4>
-<p>See how others are embracing new domains</p><a class="cta-link" href="">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+<div class="top-links">
+<?php // check if the repeater field has rows of data
+if( $greyResourcesPanel['top_links_repeater']){
+  $i = 1;
+foreach ($greyResourcesPanel['top_links_repeater'] as &$value) { ?>
+<a href="<?php echo $value['top_link_url']; ?>"><?php echo $value['top_link_text']; ?></a>
+<?php if($i != sizeof($greyResourcesPanel['top_links_repeater'])){ echo '&nbsp;|&nbsp;'; }?>
 
+<?php $i++; }} ?>
+</div>
+<img src="<?php echo $greyResourcesPanel['panel_image']; ?>" alt="<?php echo $greyResourcesPanel['title_text']; ?>">
+<h4><?php echo $greyResourcesPanel['title_text']; ?></h4>
+<p><?php echo $greyResourcesPanel['description_field']; ?></p>
+<a class="cta-link" href="<?php echo $greyResourcesPanel['link_url']; ?>">
+<?php echo $greyResourcesPanel['link_text']; ?> <i class="fa fa-chevron-right"></i></a>
 
 <!-- trending tags -->
 <div class="trending-tags">
   TRENDING TOPICS:<br>
-  <a href="">BRANDED SHORT LINKS</a>, <a href="">BUSINESS DOMAINS</a>, <a href="">CAREERS</a>
+<?php // check if the repeater field has rows of data
+if( $greyResourcesPanel['trending_topics_repeater']){
+  $i = 1;
+foreach ($greyResourcesPanel['trending_topics_repeater'] as &$value) { ?>
+<a href="<?php echo $value['topic_url']; ?>"><?php echo $value['topic_name']; ?></a><?php if($i != sizeof($greyResourcesPanel['trending_topics_repeater'])){ echo ',&nbsp'; }?>
+<?php $i++;
+}} ?>
 </div>
 <!-- trending tags -->
-
-
-
-
-
-
-      </div></div>
+</div></div>
+<?php } ?>
     </div>
   </div>
 

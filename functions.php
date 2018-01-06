@@ -1135,12 +1135,3 @@ if( function_exists('acf_add_options_page') ) {
 
 }
 ?>
-<!-- add image crop function for plugin -->
-<?php
-add_action(‘acf/register_fields’, ‘my_register_fields’);
-
-function my_register_fields()
-{
-include_once(‘acf-image-crop/acf-image-crop.php’);
-}?>
-
