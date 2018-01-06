@@ -583,87 +583,87 @@ $('.white-rnd-button').click(function(){
 
 var queryCalls = [{
 category: "All Donuts TLDs",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=alldonuts"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=alldonuts"
 },
 {
 category: "Business",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=business&onlytlds=associates,business,careers,center,company,consulting,enterprises,expert,gmbh,group,guru,industries,international,limited,ltd,management,network,partners,sarl,services,solutions,support,ventures,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=business&onlytlds=associates,business,careers,center,company,consulting,enterprises,expert,gmbh,group,guru,industries,international,limited,ltd,management,network,partners,sarl,services,solutions,support,ventures,life,world,today"
 },
 {
 category: "Finance",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=finance&onlytlds=accountants,capital,cards,cash,claims,consulting,credit,creditcard,estate,exchange,finance,financial,fund,gives,holdings,insure,investments,loans,money,report,services,solutions,tax,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=finance&onlytlds=accountants,capital,cards,cash,claims,consulting,credit,creditcard,estate,exchange,finance,financial,fund,gives,holdings,insure,investments,loans,money,report,services,solutions,tax,life,world,today"
 },
 {
 category: "Law",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=law&onlytlds=attorney,lawyer,legal,partners,services,solutions,expert,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=law&onlytlds=attorney,lawyer,legal,partners,services,solutions,expert,life,world,today"
 },
 {
 category: "Technology",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=technology&onlytlds=codes,computer,consulting,domains,energy,engineer,engineering,software,solar,solutions,systems,technology,video,works,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=technology&onlytlds=codes,computer,consulting,domains,energy,engineer,engineering,software,solar,solutions,systems,technology,video,works,life,world,today"
 },
 {
 category: "Mktg & Comm",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=mktg-comm&onlytlds=agency,consulting,digital,direct,email,expert,guru,live,market,marketing,media,productions,social,studio,video,works,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=mktg-comm&onlytlds=agency,consulting,digital,direct,email,expert,guru,live,market,marketing,media,productions,social,studio,video,works,life,world,today"
 },
 {
 category: "Real Estate",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=realestate&onlytlds=apartments,camp,community,condos,farm,forsale,haus,house,immo,immobilien,land,lease,maison,market,mortgage,properties,rentals,sale,villas,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=realestate&onlytlds=apartments,camp,community,condos,farm,forsale,haus,house,immo,immobilien,land,lease,maison,market,mortgage,properties,rentals,sale,villas,life,world,today"
 },
 {
 category: "News & Info",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=news-info&onlytlds=chat,directory,fyi,live,media,memorial,news,reviews,social,tips,video,zone,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=news-info&onlytlds=chat,directory,fyi,live,media,memorial,news,reviews,social,tips,video,zone,life,world,today"
 },
 {
 category: "Travel & Geo",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=travel-geo&onlytlds=cab,city,cruises,flights,guide,holiday,irish,limo,place,reise,reisen,taxi,tours,town,travel,vacations,viajes,video,voyage,zone,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=travel-geo&onlytlds=cab,city,cruises,flights,guide,holiday,irish,limo,place,reise,reisen,taxi,tours,town,travel,vacations,viajes,video,voyage,zone,life,world,today"
 },
 {
 category: "Photography",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=photography&onlytlds=camera,consulting,equipment,expert,gallery,graphics,guru,media,photography,photos,pictures,studio,theater,video,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=photography&onlytlds=camera,consulting,equipment,expert,gallery,graphics,guru,media,photography,photos,pictures,studio,theater,video,life,world,today"
 },
 {
 category: "Style & Fashion",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=style-fashion&onlytlds=boutique,clothing,consulting,diamonds,expert,florist,furniture,gold,guru,jewelry,moda,salon,shoes,style,tienda,video,watch,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=style-fashion&onlytlds=boutique,clothing,consulting,diamonds,expert,florist,furniture,gold,guru,jewelry,moda,salon,shoes,style,tienda,video,watch,life,world,today"
 },
 {
 category: "Shopping & Retail",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=shopping-retail&onlytlds=auction,bargains,boutique,cards,cheap,coupons,deals,delivery,direct,discount,express,florist,forsale,gifts,gratis,kaufen,market,plus,sale,salon,shopping,style,tienda,tires,toys,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=shopping-retail&onlytlds=auction,bargains,boutique,cards,cheap,coupons,deals,delivery,direct,discount,express,florist,forsale,gifts,gratis,kaufen,market,plus,sale,salon,shopping,style,tienda,tires,toys,life,world,today"
 },
 {
 category: "Sports & Fitness",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=sports-fitness&onlytlds=bike,clinic,coach,dance,expert,fish,fitness,football,futbol,golf,guru,hockey,live,rehab,rocks,run,soccer,team,tennis,training,video,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=sports-fitness&onlytlds=bike,clinic,coach,dance,expert,fish,fitness,football,futbol,golf,guru,hockey,live,rehab,rocks,run,soccer,team,tennis,training,video,life,world,today"
 },
 {
 category: "Healthcare",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=healthcare&onlytlds=care,clinic,consulting,dental,dentist,doctor,expert,fitness,guru,healthcare,hospital,rehab,rip,surgery,training,vet,vision,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=healthcare&onlytlds=care,clinic,consulting,dental,dentist,doctor,expert,fitness,guru,healthcare,hospital,rehab,rip,surgery,training,vet,vision,life,world,today"
 },
 {
 category: "Education",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=education&onlytlds=academy,church,consulting,degree,education,expert,foundation,guru,institute,mba,school,schule,university,video,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=education&onlytlds=academy,church,consulting,degree,education,expert,foundation,guru,institute,mba,school,schule,university,video,life,world,today"
 },
 {
 category: "Food & Bev",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=food-bev&onlytlds=cafe,catering,cheap,coffee,coupons,delivery,express,fish,kitchen,market,pizza,pub,recipes,restaurant,video,vin,wine,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=food-bev&onlytlds=cafe,catering,cheap,coffee,coupons,delivery,express,fish,kitchen,market,pizza,pub,recipes,restaurant,video,vin,wine,life,world,today"
 },
 {
 category: "Entertainment",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=entertainment&onlytlds=actor,band,bingo,casino,dance,dating,dog,events,games,live,media,movie,rocks,show,singles,studio,theater,video,works,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=entertainment&onlytlds=actor,band,bingo,casino,dance,dating,dog,events,games,live,media,movie,rocks,show,singles,studio,theater,video,works,life,world,today"
 },
 {
 category: "Political/Military",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=politcal-military&onlytlds=academy,airforce,army,consulting,democrat,expert,family,foundation,gives,institute,navy,republican,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=politcal-military&onlytlds=academy,airforce,army,consulting,democrat,expert,family,foundation,gives,institute,navy,republican,life,world,today"
 },
 {
 category: "Fun",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=fun&onlytlds=chat,cool,expert,exposed,fail,fyi,games,gripe,guru,jetzt,live,ninja,social,video,wtf,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=fun&onlytlds=chat,cool,expert,exposed,fail,fyi,games,gripe,guru,jetzt,live,ninja,social,video,wtf,life,world,today"
 },
 {
 category: "Home & Construction",
-url: "http://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=home-construction&onlytlds=builders,cleaning,construction,contractors,expert,glass,guru,lighting,parts,plumbing,repair,supplies,supply,tools,works,life,world,today"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&maxCount=100&allowpremium=1&usageid=home-construction&onlytlds=builders,cleaning,construction,contractors,expert,glass,guru,lighting,parts,plumbing,repair,supplies,supply,tools,works,life,world,today"
 },
 {
 category: "Premium Only",
-url: "http://api.dizzy.ninja/domain-***?account=greatdomains&password=f9ftih82&input=***&index=3&usageid=premium"
+url: "https://api.dizzy.ninja/domain-***?account=greatdomains&password=f9ftih82&input=***&index=3&usageid=premium"
 }];
 
 function prependData(data) {
