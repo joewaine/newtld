@@ -1793,6 +1793,11 @@ background: #000;
 
 
 
+#type2 #pageHeaderContent p.white-text,
+p.white-text{
+    color: white;
+}
+
 
 .testimonial-vid .video {
     background: #717ad6;
@@ -4199,3 +4204,12 @@ section {
     padding-top: 12px;
 }
 
+
+
+img.img{
+        width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 6px;
+    padding-top: 12px;
+}

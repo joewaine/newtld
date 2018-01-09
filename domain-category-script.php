@@ -71,9 +71,9 @@ var spansubtitle = $(this).find('span.subtitle').text();
 var spandomain_list = $(this).find('span.domain_list').text();
 var spanlink_text = $(this).find('span.link_text').text();
 var spanlink_url = $(this).find('span.link_url').text();
+var svgimage = $(this).find('img.img').attr('src');
 
-
-var contentItem = '<div class="dk-gry category-panel"><div class="row"><div class="col-sm-12 col-md-3"><i class="fa fa-globe gradient-item" aria-hidden="true"></i><a href="' + spanlink_url + '" class="green-learn-more">' + spanlink_text + '&nbsp;<i class="fa fa-chevron-right"></i></a></div><div class="col-sm-12 col-md-9"><h2 class="domain-type">' + spantitle + '</h2><h4 class="sub-item">' + spansubtitle + '</h4><p class="white-tlds">' + spandomain_list + '</p></div></div></div>';
+var contentItem = '<div class="dk-gry category-panel"><div class="row"><div class="col-sm-12 col-md-3"><img class="svg" src="'+ svgimage +'"><a href="' + spanlink_url + '" class="green-learn-more">' + spanlink_text + '&nbsp;<i class="fa fa-chevron-right"></i></a></div><div class="col-sm-12 col-md-9"><h2 class="domain-type">' + spantitle + '</h2><h4 class="sub-item">' + spansubtitle + '</h4><p class="white-tlds">' + spandomain_list + '</p></div></div></div>';
 
 $('.category-square:eq('+ appender +')').after('<div class="member-info-data" style="display:none;">' + contentItem + '</div>');
 $('.category-square:eq('+ appender +')').next(".member-info-data").slideDown();
@@ -101,7 +101,6 @@ $('.col-md-5').slideDown(500);
 
 //     $('.triangle').remove();
 // });
-
 
 
 

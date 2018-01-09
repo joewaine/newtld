@@ -15,7 +15,7 @@
         <div class="row col-md-12">
         <h1><?php the_sub_field('header') ?></h1>
         <h4><?php the_sub_field('subheader') ?></h4>
-
+<p class="white-text"><?php the_sub_field('subheader_descriptive_text') ?></p>
         </div>
 
         <div class="row col-md-12 centered-margin mt50 clearfix category-groupings">
@@ -23,7 +23,8 @@
 
         <?php while ( have_rows('category_square_repeater') ) : the_row(); ?>
 <div class="category-square clearfix"><div class="item">
-<i class="fa fa-<?php the_sub_field('font_awesome_icon') ?>" aria-hidden="true"></i>
+<!-- <i class="fa fa-<?php the_sub_field('font_awesome_icon') ?>" aria-hidden="true"></i> -->
+<img class="img" src="<?php the_sub_field('icon_svg_image') ?>" alt="">
   <?php the_sub_field('category_text_title') ?></div>
 <div style="display:none;">
 <span class="title"><?php the_sub_field('title') ?></span>
