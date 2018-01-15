@@ -1,7 +1,7 @@
 <?php if(get_sub_field('anchor_tag')){?>
-  <header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu purple-pink-grad domain-specific-header class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  <header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu blue-green-grad domain-specific-header class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
     <?php }else{ ?>
-  <header class="revert-second-menu purple-pink-grad domain-specific-header class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  <header class="revert-second-menu blue-green-grad domain-specific-header class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
 <?php } ?>
 
 
@@ -21,7 +21,7 @@
         <h4>
 <?php the_sub_field('header') ?>
       </h4>
-
+<p class="white-domain-text"><?php the_sub_field('description_text') ?></p>
 
 <!-- link anchor list -->
 

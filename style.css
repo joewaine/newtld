@@ -863,6 +863,7 @@ main #pageHeader #pageHeaderContent {
     z-index: 500;
     width: 100%;
     color: white;
+    margin-top: 115px;
 }
 
 #pageHeaderContent h1{
@@ -3113,6 +3114,7 @@ section.feature-info-carousel{
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 25px;
+    display: none;
 }
 
 
@@ -4311,3 +4313,9 @@ img.img{
     font-size: 14px;
     line-height: 24px;
 }
+
+#type2 #pageHeaderContent p.white-domain-text{
+    color: white;
+    font-size: 20px;
+}
+
