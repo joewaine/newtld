@@ -36,6 +36,7 @@
      <div class="site-image">
    <img src="<?php the_sub_field('example_image') ?>">
   <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
+
             <div class="site-text">
        <?php the_sub_field('example_domain') ?>
             </div>

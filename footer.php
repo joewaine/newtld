@@ -127,8 +127,7 @@ if( $layoutFormat ){ ?>
 
 
 <div class="col-md-2 col-sm-2 col-xs-3">
-  <p><img class="donuts-word" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-color-logo.png'; ?>"></p>
-
+  <!-- <p><img class="donuts-word" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-color-logo.png'; ?>"></p> -->
 
 
 
@@ -139,6 +138,8 @@ if( $layoutFormat ){ ?>
 
 
   <p><img class="donuts-d" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>
+
+  <p><img class="logo-d" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>
 
 
 </div>
@@ -552,7 +553,11 @@ window.location.href = $(this).find('a').attr('href');
 <script>
 
 var encodedURL = encodeURIComponent(window.location);
-var encodedTitle = encodeURIComponent($('.article-title.single').text());
+var encodedTitle = encodeURIComponent($('h2.blog-post-title').text());
+
+
+
+// alert(encodedTitle);
 
 var linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url=' + encodedURL + '&title=' + encodedTitle;
 var twitterURL = 'http://twitter.com/share?text=' + encodedTitle + '&url=' + encodedURL;
@@ -669,13 +674,19 @@ url: "https://api.dizzy.ninja/domain-***?account=greatdomains&password=f9ftih82&
 function prependData(data) {
   $('.search-bar .results').empty();
     for(i=0;i<JSON.stringify(data.output.domains.count);i++){
-    $('.results-panel .results').prepend('<span style="color:black">' + JSON.stringify(data.output.domains.domains[i].domain).replace(/["_]/g,'') + '</span><br>');
+    $('.results-panel .results').prepend('<span style="color:white;">' + JSON.stringify(data.output.domains.domains[i].domain).replace(/["_]/g,'') + '</span><br>');
   }
 }
 
 
-$('.searchsubmit').click(function(){
+$('.searchsubmit').click(function(e){
+    e.preventDefault();
 
+
+
+$('.results').empty();
+
+$('.results-panel').show();
 var encodedSearchTerm = encodeURIComponent($('#searchterm').val());
 
 var queryURL = queryCalls[$(this).data('category')].url.replace("***", encodedSearchTerm);

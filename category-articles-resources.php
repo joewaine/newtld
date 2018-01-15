@@ -33,6 +33,10 @@
           <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
         <h4><?php the_sub_field('resource_title') ?></h4>
         <p><?php the_sub_field('resource_text') ?></p>
+
+<a class="cta-link" href="<?php the_sub_field('cta_link') ?>"><?php the_sub_field('cta_text') ?> <i class="fa fa-chevron-right"></i></a>
+
+
           <div class="trending-tags">
         <?php the_sub_field('trending_tags_text') ?>
           </div></div></div>

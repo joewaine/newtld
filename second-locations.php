@@ -33,8 +33,9 @@
     endwhile;
 ?>
 <div class="col-md-2 col-sm-2 col-xs-3">
-  <p><img class="donuts-word" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-color-logo.png'; ?>"></p>
-
+<!--   <p><img class="donuts-word" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-color-logo.png'; ?>"></p>
+ -->
+  <p><img class="" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>
 </div>
 <div class="col-md-2 col-sm-2 col-xs-3">
   <p><img class="donuts-d" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>

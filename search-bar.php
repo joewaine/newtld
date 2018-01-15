@@ -6,17 +6,28 @@
 
   <div class="container">
     <div class="row"><div class="search-text">SEARCH FOR DOMAINS</div>
-      <div id="searchform">
+      <!-- <div id="searchform"> -->
+
+<form id="searchform">
+
         <input id="searchterm" type="text">
-        <div id="searchsubmit" data-category="<?php the_sub_field('tld_category_search_select'); ?>" class="searchsubmit">search</div>
-      </div>
+        <!-- <div id="searchsubmit" data-category="<?php the_sub_field('tld_category_search_select'); ?>" class="searchsubmit">search</div> -->
+
+
+
+  <button id="searchsubmit" data-category="<?php the_sub_field('tld_category_search_select'); ?>" class="searchsubmit">search</button>
+
+
+
+      <!-- </div> -->
+      </form>
     </div>
   </div>
 </section>
 
-<section class="results-panel">
+<section class="results-panel" style="display: none;">
 
-  <div class="results container"></div>
+  <div class="results container text-center"></div>
 
 </section>
 
