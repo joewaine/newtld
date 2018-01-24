@@ -33,9 +33,13 @@ $layoutFormat = get_field('layout_format');
 // check
 if( $layoutFormat ){ ?>
 <footer id="siteFooter" class="type2">
+<!-- <footer id="siteFooter"> -->
+
+
+<!-- <footer id="siteFooter"> -->
 
 <?php }else{ ?>
-
+<!-- <footer id="siteFooter" class="type2"> -->
 <footer id="siteFooter">
 
 
@@ -137,10 +141,9 @@ if( $layoutFormat ){ ?>
 <div class="col-md-2 col-sm-2 col-xs-3">
 
 
-  <p><img class="donuts-d" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>
+<p><img class="donuts-d" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>
 
-  <p><img class="logo-d" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>
-
+<p><img class="logo-d" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-d.png'; ?>"></p>
 
 </div>
 
