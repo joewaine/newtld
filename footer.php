@@ -40,8 +40,9 @@ if( $layoutFormat ){ ?>
 
 <?php }else{ ?>
 <!-- <footer id="siteFooter" class="type2"> -->
-<footer id="siteFooter">
+<!-- <footer id="siteFooter"> -->
 
+<footer id="siteFooter" class="type2">
 
 <?php } ?>
 

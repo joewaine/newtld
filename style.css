@@ -3597,7 +3597,7 @@ float: right;
 
 #type2 #pageHeaderContent p {
     /*color: #009ABF;*/
-    color: #333;
+        color: #333;
     font-size: 22px;
 }
 
