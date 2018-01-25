@@ -26,8 +26,19 @@
 </section>
 
 <section class="results-panel" style="display: none;">
+<ul id="myList">
 
-  <div class="results container text-center"></div>
+</ul>
+  <div class="results container text-center">
+    <!-- <ul class="search-results-domains" style=""></ul> -->
+
+<ul id="myList">
+
+</ul>
+<!-- <div id="loadMore">Load more</div> -->
+
+  </div>
+      <div id="loadMore">Load more</div>
 
 </section>
 

@@ -866,6 +866,17 @@ main #pageHeader #pageHeaderContent {
     margin-top: 115px;
 }
 
+
+/*#type2 #pageHeaderContent{
+    position: absolute;
+    top: 180px;
+    z-index: 500;
+    width: 100%;
+    color: white;
+    margin-top: 115px;
+
+}*/
+
 #pageHeaderContent h1{
     color: #fff;
     font-size: 50px;
@@ -3471,7 +3482,7 @@ a.type-link{
 .donuts-d{
     height: 90px;
     float: right;
-display: none;
+/*display: none;*/
 }
 
 .logo-d{
@@ -3491,7 +3502,7 @@ display: none;
 
 .primary-footer-links,
 .primary-location-links{
-    display: block;
+    display: none;
 }
 
 #type2 .primary-footer-links,
@@ -3501,7 +3512,7 @@ display: none;
 
 .second-footer-links,
 .second-locations{
-    display: none;
+    display: block;
 }
 
 #type2 .second-footer-links,
@@ -4322,4 +4333,42 @@ img.img{
     color: white;
     font-size: 20px;
 }
+
+
+.search-results-domains li{
+list-style-type: none;
+}
+
+.results span{
+    display: none;
+}
+
+
+
+#myList{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+
+#myList li{
+    list-style-type: none;
+display: none;
+}
+
+
+
+#myList li:nth-child(-n+10){
+    display: block;
+}
+
+#loadMore{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #0f99c3;
+    cursor: pointer;
+}
+
 

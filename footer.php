@@ -678,7 +678,7 @@ url: "https://api.dizzy.ninja/domain-***?account=greatdomains&password=f9ftih82&
 function prependData(data) {
   $('.search-bar .results').empty();
     for(i=0;i<JSON.stringify(data.output.domains.count);i++){
-    $('.results-panel .results').prepend('<span style="color:white;">' + JSON.stringify(data.output.domains.domains[i].domain).replace(/["_]/g,'') + '</span><br>');
+    $('#myList').prepend('<li style="color:white;">' + JSON.stringify(data.output.domains.domains[i].domain).replace(/["_]/g,'') + '</li>');
   }
 }
 
@@ -716,6 +716,21 @@ $(document).ready(function(){
     });
 });
 
+
+
+var x = 10
+
+$('#loadMore').click(function(){
+
+x = x + 10
+
+$('#myList li:nth-child(-n+' + x +')').css('display', 'block');
+
+// // $('#myList li').css('display', 'none');
+
+// shown = shown + 10;
+
+});
 
 </script>
 

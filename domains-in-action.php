@@ -31,7 +31,7 @@
 
 
 <div class="row">
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-sm-6">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
 <i class="fa fa-globe" aria-hidden="true"></i>
@@ -41,7 +41,7 @@
       </div>
 
 </div>
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-sm-6">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
 <i class="fa fa-share" aria-hidden="true"></i>
@@ -50,7 +50,7 @@
       </div>      </div>
 
 </div>
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-sm-4" style="display:none;">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
 

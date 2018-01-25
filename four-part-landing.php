@@ -85,7 +85,7 @@ $orangeDomainsPanel = get_sub_field('orange_domains_in_action_panel');
 
 <!-- three buttons -->
 <div class="row mt50">
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-sm-6">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
 <i class="fa fa-<?php echo $orangeDomainsPanel['white_left_button_fa_icon']; ?>" aria-hidden="true"></i>
@@ -95,7 +95,7 @@ $orangeDomainsPanel = get_sub_field('orange_domains_in_action_panel');
       </div>
 
 </div>
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-sm-6">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
 <i class="fa fa-<?php echo $orangeDomainsPanel['white_center_button_fa_icon']; ?>" aria-hidden="true"></i>
@@ -104,7 +104,7 @@ $orangeDomainsPanel = get_sub_field('orange_domains_in_action_panel');
       </div>      </div>
 
 </div>
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-sm-4" style="display:none;">
         <div class="white-rnd-button">
 <img class="icon" src="" alt="">
 
