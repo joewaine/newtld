@@ -19,7 +19,7 @@
           <?php the_sub_field('header') ?>
         </h1>
         <h4>
-<?php the_sub_field('header') ?>
+<?php the_sub_field('subheader') ?>
       </h4>
 <p class="white-domain-text"><?php the_sub_field('description_text') ?></p>
 
