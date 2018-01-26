@@ -134,7 +134,7 @@ $orangeDomainsPanel = get_sub_field('orange_domains_in_action_panel');
 <?php $greyResourcesPanel = get_sub_field('grey_resources_panel');
  if( $greyResourcesPanel ){
 ?>
-  <div class="col-md-6"><div class="landing-panel l-grey">
+  <div class="col-md-6" style="display:none;"><div class="landing-panel l-grey">
 
 <div class="top-links">
 <?php // check if the repeater field has rows of data
