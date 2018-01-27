@@ -3,7 +3,7 @@
   <div class="background-icon <?php the_sub_field('background_icon'); ?>-image">icon</div>
     <?php }else{ ?>
   <header class="revert-second-menu blue-green-grad domain-specific-header class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
-
+  <div class="background-icon <?php the_sub_field('background_icon'); ?>-image">icon</div>
 <?php } ?>
 
 
