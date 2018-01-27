@@ -12,7 +12,7 @@
 <?php the_sub_field('breadcrumbs_text') ?>
 </div></div>
 
-    <div id="pageHeaderContent">
+    <div id="pageHeaderContent" class="pos-initial">
       <div class="container">
         <div class="row col-md-12">
          <h1 class="smaller-header">

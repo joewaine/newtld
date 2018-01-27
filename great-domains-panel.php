@@ -10,7 +10,7 @@
 </div></div>
 
   <img class="tld-page-header-image" src="" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
-    <div id="pageHeaderContent">
+    <div id="pageHeaderContent" class="pos-initial">
       <div class="container">
         <div class="row col-md-12">
         <h1><?php the_sub_field('header') ?></h1>

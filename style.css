@@ -858,7 +858,7 @@ main #pageHeader #pageHeaderContent {
 }
 
 #pageHeaderContent{
-    /*position: absolute;*/
+    position: absolute;
     top: 180px;
     z-index: 500;
     width: 100%;
@@ -2919,11 +2919,6 @@ margin-top: 13px;
 
 
 
-
-
-
-
-
 @media screen and (max-width: 768px){
     .desktop-header-image{
         display: none;
@@ -2936,6 +2931,7 @@ margin-top: 13px;
 
 #pageHeaderContent {
     top: 40px;
+    margin-top: 40px;
 }
 
 #pageHeaderContent h1 {
@@ -4370,5 +4366,152 @@ display: none;
     color: #0f99c3;
     cursor: pointer;
 }
+
+#pageHeaderContent.pos-initial{
+    position: initial;
+}
+
+
+.background-icon
+{   width: 400px;
+    height: 400px;
+    background: transparent;
+    color: transparent;
+    position: absolute;
+    right: 15%;
+    bottom: -4px;
+        background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
+
+.background-icon.business-image
+{   width: 400px;
+    height: 400px;
+    background: transparent;
+    color: transparent;
+    position: absolute;
+    right: 15%;
+    bottom: -4px;
+    background-image: url(img/business_1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
+.background-icon.none-image{
+    background-image: url(img/);
+}
+
+.background-icon.entertainment-image{
+        background-image: url(img/entertainment_1.svg);
+            bottom: 26px;
+}
+
+.background-icon.financial-image{
+        background-image: url(img/financial_1.svg);
+        bottom: 43px;
+}
+
+.background-icon.food-image{
+        background-image: url(img/food-beverage_1.svg);
+        bottom: 26px;
+}
+
+.background-icon.fun-image{
+        background-image: url(img/fun_1.svg);
+        bottom: 26px;
+}
+
+.background-icon.healthcare-image{
+        background-image: url(img/healthcare_1.svg);
+        bottom: 36px;
+}
+
+.background-icon.information-image{
+        background-image: url(img/information_1.svg);
+        bottom: 26px;
+}
+
+.background-icon.marketing-image{
+        background-image: url(img/marketing_1.svg);
+        bottom: 36px;
+}
+
+.background-icon.photography-image{
+        background-image: url(img/photography_1.svg);
+        bottom: 56px;
+}
+
+.background-icon.real-estate-image{
+        background-image: url(img/real-estate_1.svg);
+}
+
+.background-icon.retail-image{
+        background-image: url(img/retail_1.svg);
+        bottom: 36px;
+}
+
+.background-icon.shopping-image{
+        background-image: url(img/shopping_1.svg);
+        bottom: 26px;
+}
+
+.background-icon.sports-fitness-image{
+        background-image: url(img/sports-fitness_1.svg);
+        bottom: 26px;
+}
+
+.background-icon.technology-image{
+        background-image: url(img/technology_1.svg);
+        bottom: 36px;
+}
+
+.background-icon.travel-image{
+        background-image: url(img/travel_1.svg);
+            bottom: 36px;
+}
+
+
+
+@media screen and (max-width: 830px){
+#socialSearch li{
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 768px){
+    #socialSearch li {
+    display: inline-block;
+}
+}
+
+
+@media screen and (max-width: 1200px){
+
+.background-icon.entertainment-image,
+.background-icon.financial-image,
+.background-icon.food-image,
+.background-icon.fun-image,
+.background-icon.healthcare-image,
+.background-icon.information-image,
+.background-icon.marketing-image,
+.background-icon.photography-image,
+.background-icon.real-estate-image,
+.background-icon.retail-image,
+.background-icon.shopping-image,
+.background-icon.sports-fitness-image,
+.background-icon.technology-image,
+.background-icon.travel-image{
+        background-image: url(img/);
+}
+
+
+
+
+}
+
 
 
