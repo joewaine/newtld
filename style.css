@@ -4514,5 +4514,9 @@ display: none;
 
 }
 
-
-
+@media screen and (max-width: 1024px){
+.search-bar #searchform{
+    width: 273px;
+    margin-top: 10px;
+}
+}
