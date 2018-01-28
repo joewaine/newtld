@@ -4,8 +4,12 @@
   <section class="search-bar class-on-off-switch">
 <?php } ?>
 
+
+<?php if( get_sub_field('search_premium') ){ $searchpremium = 'SEARCH FOR PREMIUM DOMAINS'; }else{ $searchpremium = 'SEARCH FOR DOMAINS'; } ?>
   <div class="container">
-    <div class="row"><div class="search-text">SEARCH FOR DOMAINS</div>
+    <div class="row"><div class="search-text">
+<?php echo $searchpremium; ?>
+    </div>
       <!-- <div id="searchform"> -->
 
 <form id="searchform">

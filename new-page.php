@@ -11,7 +11,7 @@
 </div></div>
 
   <img class="tld-page-header-image" src="" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
-    <div id="pageHeaderContent">
+    <div id="pageHeaderContent" class="remove-top-margin">
       <div class="container">
         <div class="row col-md-7">
 <h1>

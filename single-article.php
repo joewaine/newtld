@@ -9,7 +9,7 @@
 <?php the_sub_field('breadcrumbs_text') ?>
 </div></div>
 
-    <div id="pageHeaderContent">
+    <div id="pageHeaderContent" class="pos-initial">
       <div class="container">
 
 

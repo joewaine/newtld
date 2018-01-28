@@ -4372,6 +4372,10 @@ display: none;
     position: initial;
 }
 
+#pageHeaderContent.remove-top-margin{
+    margin-top: 0;
+}
+
 
 .background-icon
 {   width: 400px;
