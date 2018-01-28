@@ -12,7 +12,7 @@
 <?php if( get_sub_field('search_premium') ){ $searchpremium = 'SEARCH PREMIUM DOMAINS'; }else{ $searchpremium = 'SEARCH FOR DOMAINS'; } ?>
   <div class="container">
     <div class="row <?php echo $widerHead; ?>"><div class="search-text">
-<?php echo $widerHead; ?>
+<?php echo $searchpremium; ?>
     </div>
       <!-- <div id="searchform"> -->
 
