@@ -4492,6 +4492,11 @@ display: none;
 }
 
 
+#pageHeaderContent.pos-initial.margin-top-40{
+    margin-top: 40px;
+}
+
+
 
 @media screen and (max-width: 830px){
 #socialSearch li{
