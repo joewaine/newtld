@@ -1,3 +1,6 @@
+<?php if( get_sub_field('top_of_page') ){ $topofpage = ''; }else{ $topofpage = 'margin-top-40'; } ?>
+
+
 <?php if(get_sub_field('anchor_tag')){?>
 <header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu example-sites class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
 <?php }else{ ?>
@@ -12,7 +15,7 @@
 <?php the_sub_field('breadcrumbs_text') ?>
 </div></div>
 
-    <div id="pageHeaderContent" class="pos-initial">
+    <div id="pageHeaderContent" class="pos-initial <?php echo $topofpage ?>">
       <div class="container">
         <div class="row col-md-12">
          <h1 class="smaller-header">
