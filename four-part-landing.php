@@ -141,7 +141,7 @@ $orangeDomainsPanel = get_sub_field('orange_domains_in_action_panel');
 if( $greyResourcesPanel['top_links_repeater']){
   $i = 1;
 foreach ($greyResourcesPanel['top_links_repeater'] as &$value) { ?>
-<a href="<?php echo $value['top_link_url']; ?>"><?php echo $value['top_link_text']; ?></a>
+<a target="_blank" href="<?php echo $value['top_link_url']; ?>"><?php echo $value['top_link_text']; ?></a>
 <?php if($i != sizeof($greyResourcesPanel['top_links_repeater'])){ echo '&nbsp;|&nbsp;'; }?>
 
 <?php $i++; }} ?>

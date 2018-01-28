@@ -18,7 +18,7 @@
 <?php while ( have_rows('example_box_repeater') ) : the_row(); ?>
     <div class="col-sm-12 col-md-4">
       <div class="landing-panel l-grey">
-        <div class="top-links"><a href="<?php the_sub_field('example_website_url') ?>"><?php the_sub_field('example_website_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+        <div class="top-links"><a target="_blank" href="<?php the_sub_field('example_website_url') ?>"><?php the_sub_field('example_website_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
         <div class="site-image">
           <?php if(get_sub_field('example_domain_image')){ ?>
             <!-- <img src="http://i.imgur.com/91oUq79.png" alt=""> -->

@@ -102,7 +102,7 @@ Share:
     <?php while ( have_rows('related_article_repeater') ) : the_row(); ?>
 
     <div class="landing-panel l-grey">
-      <div class="top-links"><a href="<?php the_sub_field('article_top_link_url') ?>"><?php the_sub_field('article_top_link_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+      <div class="top-links"><a target="_blank" href="<?php the_sub_field('article_top_link_url') ?>"><?php the_sub_field('article_top_link_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
         <h4><?php the_sub_field('related_article_title') ?></h4>
         <p><?php the_sub_field('related_article_excerpt') ?></p>
         <a class="cta-link" href="<?php the_sub_field('learn_more_url') ?>"><?php the_sub_field('learn_more_text') ?> <i class="fa fa-chevron-right"></i></a>

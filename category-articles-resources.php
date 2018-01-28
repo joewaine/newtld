@@ -24,7 +24,7 @@
         <div class="col-sm-12 col-md-4">
           <div class="landing-panel l-grey">
         <!-- lilnks -->
-          <div class="top-links"><a href="<?php the_sub_field('top_link_url') ?>"><?php the_sub_field('top_link_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+          <div class="top-links"><a target="_blank" href="<?php the_sub_field('top_link_url') ?>"><?php the_sub_field('top_link_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
         <!-- lilnks -->
         <?php if(get_sub_field('resource_image')){ ?>
            <img src="<?php the_sub_field('resource_image') ?>">

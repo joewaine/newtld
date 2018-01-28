@@ -18,7 +18,7 @@
       <div class="container">
         <div class="row col-md-9">
         <h1>
-          <?php the_sub_field('header') ?>csdcsd
+          <?php the_sub_field('header') ?>
         </h1>
         <h4>
 <?php the_sub_field('subheader') ?>
