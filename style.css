@@ -3567,6 +3567,18 @@ float: right;
     margin: 0 auto;
 }
 
+.search-bar .container .row.wider-search-head{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 58%;
+    margin: 0 auto;
+}
+
+
+
+
+
 .btn-default {
     color: #333;
     background-color: #fff;

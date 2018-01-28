@@ -1,3 +1,7 @@
+
+<?php if( get_sub_field('search_premium') ){ $widerHead = 'wider-search-head'; }else{ $widerHead = ''; } ?>
+
+
 <?php if(get_sub_field('anchor_tag')){?>
   <section id="<?php the_sub_field('anchor_tag') ?>" class="search-bar class-on-off-switch">
 <?php }else{ ?>
@@ -5,9 +9,9 @@
 <?php } ?>
 
 
-<?php if( get_sub_field('search_premium') ){ $searchpremium = 'SEARCH FOR PREMIUM DOMAINS'; }else{ $searchpremium = 'SEARCH FOR DOMAINS'; } ?>
+<?php if( get_sub_field('search_premium') ){ $searchpremium = 'SEARCH PREMIUM DOMAINS'; }else{ $searchpremium = 'SEARCH FOR DOMAINS'; } ?>
   <div class="container">
-    <div class="row"><div class="search-text">
+    <div class="row <?php echo $searchpremium; ?>"><div class="search-text">
 <?php echo $searchpremium; ?>
     </div>
       <!-- <div id="searchform"> -->
