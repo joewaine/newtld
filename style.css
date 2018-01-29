@@ -4452,6 +4452,12 @@ display: none;
         bottom: 26px;
 }
 
+
+.background-icon.education-image{
+        background-image: url(img/education.svg);
+        bottom: 26px;
+}
+
 .background-icon.marketing-image{
         background-image: url(img/marketing_1.svg);
         bottom: 36px;
@@ -4490,6 +4496,49 @@ display: none;
         background-image: url(img/travel_1.svg);
             bottom: 36px;
 }
+
+
+
+.background-icon.shopping-image{
+        background-image: url(img/travel_1.svg);
+            bottom: 36px;
+}
+
+.background-icon.education-image{
+        background-image: url(img/education.svg);
+            bottom: 36px;
+}
+
+
+.background-icon.construction-image{
+        background-image: url(img/construction.svg);
+            bottom: 36px;
+}
+
+.background-icon.legal-image{
+        background-image: url(img/legal.svg);
+            bottom: 36px;
+}
+
+.background-icon.whimsical-image{
+        background-image: url(img/whimsical.svg);
+            bottom: 36px;
+}
+
+.background-icon.political-image{
+        background-image: url(img/political.svg);
+            bottom: 36px;
+}
+
+
+.background-icon.military-image{
+        background-image: url(img/military.svg);
+            bottom: 36px;
+}
+
+
+
+
 
 
 #pageHeaderContent.pos-initial.margin-top-40{
