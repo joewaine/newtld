@@ -3253,10 +3253,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6058', end
 .landing-panel{
     padding: 0px 30px 20px 30px;
     margin-bottom: 30px;
-
-    -webkit-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
-    -moz-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
-    box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
+/*
+-webkit-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
+-moz-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
+box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);*/
 }
 
 
@@ -3430,10 +3430,13 @@ color: rgb(131, 131, 131);
 margin: 82px auto 0
 }
 
+
+
+
 .white-rnd-button{
-    -webkit-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
-    -moz-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
-    box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.20);
     background-color: white;
     border-radius: 10px;
     padding-top: 20px;
