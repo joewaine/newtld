@@ -734,3 +734,25 @@ $('#myList li:nth-child(-n+' + x +')').css('display', 'block');
 
 </script>
 
+<script>
+
+$('.owl-item').click(function(){
+
+alert('err');
+
+
+});
+
+</script>
+
+
+<script>
+
+$('.slideup-hide-results').click(function(){
+
+
+$('.results-panel').slideUp();
+
+});
+
+</script>

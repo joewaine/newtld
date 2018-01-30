@@ -2,9 +2,9 @@
 
 
 <?php if(get_sub_field('anchor_tag')){?>
-<header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu example-sites class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+<header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu example-sites class-on-off-switch" id="" style="background-color:#333;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
 <?php }else{ ?>
-<header class="revert-second-menu example-sites class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+<header class="revert-second-menu example-sites class-on-off-switch" id="" style="background-color:#333;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
 
 <?php } ?>
 
@@ -18,7 +18,7 @@
     <div id="pageHeaderContent" class="pos-initial <?php echo $topofpage ?>">
       <div class="container">
         <div class="row col-md-12">
-         <h1 class="smaller-header">
+         <h1 class="smaller-header" style="color: white;">
           <?php the_sub_field('header') ?>
         </h1>
         </div>
@@ -34,9 +34,10 @@
   <div class="landing-panel l-grey">
 
 <!-- lilnks -->
-  <div class="top-links"><a target="_blank" href="<?php the_sub_field('top_link_url') ?>"><?php the_sub_field('top_link_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+  <div class="top-links"><?php the_sub_field('top_link_text') ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
 <!-- lilnks -->
      <div class="site-image">
+      <a target="_blank" href="<?php the_sub_field('top_link_url') ?>">
    <img src="<?php the_sub_field('example_image') ?>">
   <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
 
@@ -46,7 +47,7 @@
 
 
 
-
+</a>
 
             </div>
   <div class="trending-tags">

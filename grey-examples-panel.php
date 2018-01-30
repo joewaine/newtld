@@ -22,12 +22,16 @@
         <div class="site-image">
           <?php if(get_sub_field('example_domain_image')){ ?>
             <!-- <img src="http://i.imgur.com/91oUq79.png" alt=""> -->
+            <a target="_blank" href="<?php the_sub_field('example_website_url') ?>">
             <img src="<?php the_sub_field('example_domain_image') ?>" alt="<?php the_sub_field('example_domain') ?>">
+        </a>
          <?php } ?>
 
         <div class="site-text">
              <?php if(get_sub_field('example_domain')){ ?>
+                         <a class="link-site-out" target="_blank" href="<?php the_sub_field('example_website_url') ?>">
                <?php the_sub_field('example_domain') ?>
+             </a>
              <?php } ?>
         </div>
         </div>

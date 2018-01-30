@@ -11,6 +11,9 @@
 
 <?php if( get_sub_field('search_premium') ){ $searchpremium = 'SEARCH PREMIUM DOMAINS'; }else{ $searchpremium = 'SEARCH FOR DOMAINS'; } ?>
   <div class="container">
+
+
+
     <div class="row <?php echo $widerHead; ?>"><div class="search-text">
 <?php echo $searchpremium; ?>
     </div>
@@ -46,7 +49,7 @@
 <!-- <div id="loadMore">Load more</div> -->
 
   </div>
-      <div id="loadMore">Load more</div>
+      <div id="loadMore">Load more | <span class="slideup-hide-results">Hide results</span></div>
 
 </section>
 

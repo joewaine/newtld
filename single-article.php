@@ -94,7 +94,7 @@ Share:
 
 
 </div>
-<div class="col-sm-12 col-md-4 related-articles-column">
+<div class="col-sm-12 col-md-4 related-articles-column" style="display: none;">
   <h4 class="article-title mt50"><?php the_sub_field('related_articles_header') ?></h4>
 
 

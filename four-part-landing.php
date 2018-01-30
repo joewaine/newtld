@@ -22,7 +22,7 @@ $greenDomainCategory = get_sub_field('green_domain_categories_category_panel');
 if( $greenDomainCategory['domain_carousel']){
 foreach ($greenDomainCategory['domain_carousel'] as &$value) { ?>
     <div class="item">
-      <img src="<?php echo $value['category_icon']; ?>" alt="<?php echo $value['category_text']; ?>" style="display: block;width: 175px;height: 143px;margin: 0 auto;">
+      <a href="<?php echo $value['category_link']; ?>"><img src="<?php echo $value['category_icon']; ?>" alt="<?php echo $value['category_text']; ?>" style="display: block;width: 175px;height: 143px;margin: 52px auto 0;"></a>
       <a href="<?php echo $value['category_link']; ?>"><?php echo $value['category_text']; ?></a>
 </div>
 <?php }} ?>
@@ -50,7 +50,7 @@ $purplePremiumDomains = get_sub_field('purple_premium_domains_panel');
 </a>
 <br>
 <br>
-<div class="premium-domains text-center">
+<div class="premium-domains text-center" style="margin-top: 60px;text-decoration: underline;">
 <a href="<?php echo $purplePremiumDomains['cta_url']; ?>">
   <?php echo $purplePremiumDomains['cta_text']; ?>
 </a>

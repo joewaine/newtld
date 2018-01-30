@@ -162,7 +162,7 @@ Share:
 
 
 <!-- related articles sidebar -->
-<div class="col-sm-12 col-md-4 related-articles-column">
+<div class="col-sm-12 col-md-4 related-articles-column" style="display: none;">
   <h4 class="article-title mt50">Related Articles</h4>
 
     <div class="landing-panel l-grey">
