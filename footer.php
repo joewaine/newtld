@@ -672,7 +672,7 @@ url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9
 },
 {
 category: "Premium Only",
-url: "https://api.dizzy.ninja/domain-suggestion?account=greatdomains&password=f9ftih82&input=***&index=3&usageid=premium"
+url: "https://api.dizzy.ninja/recommend-domains?account=greatdomains&password=f9ftih82&input=***&index=3&usageid=premium"
 }];
 
 function prependData(data) {
