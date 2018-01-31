@@ -36,7 +36,7 @@
        <?php while ( have_rows('categories_repeater') ) : the_row(); ?>
 
 
-<span class="button filter" data-filter="<?php the_sub_field('category-slug') ?>"><?php the_sub_field('category') ?> <i class="fa fa-chevron-right"></i></span>
+<span class="button filter" data-filter=".<?php the_sub_field('category-slug') ?>"><?php the_sub_field('category') ?> <i class="fa fa-chevron-right"></i></span>
         <?php endwhile; ?>
 
 <!--
