@@ -36,7 +36,16 @@
        <?php while ( have_rows('categories_repeater') ) : the_row(); ?>
 
 
+
+<?php if(get_sub_field('category') === 'all categories'){ ?>
+
+<span class="button filter" data-filter="*"><?php the_sub_field('category') ?> <i class="fa fa-chevron-right"></i></span>
+
+  <?php }else{ ?>
 <span class="button filter" data-filter=".<?php the_sub_field('category-slug') ?>"><?php the_sub_field('category') ?> <i class="fa fa-chevron-right"></i></span>
+  <?php } ?>
+
+
         <?php endwhile; ?>
 
 <!--
