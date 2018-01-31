@@ -69,7 +69,7 @@
 <!-- lilnks -->
      <div class="site-image">
       <a target="_blank" href="<?php the_sub_field('top_link_url') ?>">
-   <!-- <img src="<?php the_sub_field('example_image') ?>"> -->
+<img src="<?php the_sub_field('example_image') ?>">
   <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
 
             <div class="site-text">
