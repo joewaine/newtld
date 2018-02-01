@@ -29,7 +29,13 @@
 
 
 <!-- here it is -->
-<div class="button-group filter-button-group">
+
+
+<?php if( get_sub_field('filters_on_off') ){ $filtersOnOff = ''; }else{ $filtersOnOff = 'style="display:none"'; } ?>
+
+
+
+<div class="button-group filter-button-group" <?php echo $filtersOnOff ?>>
 <span class="button filter" data-filter="*">all categories <i class="fa fa-chevron-right"></i></span>
        <?php while ( have_rows('categories_repeater') ) : the_row(); ?>
 
