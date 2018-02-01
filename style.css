@@ -1907,6 +1907,11 @@ margin-bottom: 24px;
 
 .info-list ul li{
     margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.info-list ul li a{
+color: #fff !important;
 }
 
 
@@ -4429,7 +4434,7 @@ list-style-type: none;
     background: transparent;
     color: transparent;
     position: absolute;
-    right: 10%;
+    right: 5%;
     bottom: -4px;
     background-image: url(img/business_1.svg);
     background-repeat: no-repeat;
@@ -4641,4 +4646,3 @@ list-style-type: none;
     margin-right: 30px;
 
 }
-

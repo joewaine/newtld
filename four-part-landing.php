@@ -22,7 +22,7 @@ $greenDomainCategory = get_sub_field('green_domain_categories_category_panel');
 if( $greenDomainCategory['domain_carousel']){
 foreach ($greenDomainCategory['domain_carousel'] as &$value) { ?>
     <div class="item">
-      <a href="<?php echo $value['category_link']; ?>"><img src="<?php echo $value['category_icon']; ?>" alt="<?php echo $value['category_text']; ?>" style="display: block;width: 175px;height: 143px;margin: 52px auto 0;"></a>
+      <a href="<?php echo $value['category_link']; ?>"><img src="<?php echo $value['category_icon']; ?>" alt="<?php echo $value['category_text']; ?>" style="display: block;width: 175px;height: 143px;margin: 22px auto 0;"></a>
       <a href="<?php echo $value['category_link']; ?>"><?php echo $value['category_text']; ?></a>
 </div>
 <?php }} ?>
