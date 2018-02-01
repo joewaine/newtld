@@ -1,7 +1,7 @@
 <?php if(get_sub_field('anchor_tag')){?>
-  <header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  <header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu class-on-off-switch blue-green-grad" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
 <?php }else{ ?>
-  <header class="revert-second-menu class-on-off-switch" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  <header class="revert-second-menu class-on-off-switch blue-green-grad" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
 <?php } ?>
 
 
@@ -14,11 +14,11 @@
     <div id="pageHeaderContent" class="remove-top-margin">
       <div class="container">
         <div class="row col-md-7">
-<h1>
+<h1 style="color:white">
   <?php the_sub_field('header') ?>
         </h1>
-        <h4>  <?php the_sub_field('subheader') ?></h4>
-        <p><?php the_sub_field('subheader_descriptive_text') ?></p>
+        <h4 style="color:white">  <?php the_sub_field('subheader') ?></h4>
+        <p style="color:white"><?php the_sub_field('subheader_descriptive_text') ?></p>
 
       </div>
 
