@@ -1911,7 +1911,8 @@ margin-bottom: 24px;
 }
 
 .info-list ul li a{
-color: #fff !important;
+  color: #fff;
+  text-decoration: underline;
 }
 
 
