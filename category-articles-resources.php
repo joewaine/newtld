@@ -10,7 +10,7 @@
   <?php the_sub_field('breadcrumb_text') ?>
 </div></div>
 
-    <div id="pageHeaderContent" class="pos-initial">
+    <div id="pageHeaderContent" class="pos-initial" style="margin-top: 40px;">
       <div class="container">
         <div class="row col-md-12">
         <h1 class="smaller-header">
@@ -31,10 +31,10 @@
        <?php } ?>
 
           <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
-        <h4><?php the_sub_field('resource_title') ?></h4>
+        <h4><a style="color: #009abf;font-size: 29px; text-decoration:none;" href="<?php the_sub_field('top_link_url') ?>" target="_blank"><?php the_sub_field('resource_title') ?></a></h4>
         <p><?php the_sub_field('resource_text') ?></p>
 
-<a class="cta-link" href="<?php the_sub_field('cta_link') ?>"><?php the_sub_field('cta_text') ?> <i class="fa fa-chevron-right"></i></a>
+<a class="cta-link" target="_blank" href="<?php the_sub_field('top_link_url') ?>">LEARN MORE <i class="fa fa-chevron-right"></i></a>
 
 
           <div class="trending-tags">
