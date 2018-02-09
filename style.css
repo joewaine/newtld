@@ -4647,3 +4647,24 @@ list-style-type: none;
     margin-right: 30px;
 
 }
+
+
+
+@media screen and (max-width: 960px){
+  .third{
+      width: 50%;
+      background: transparent;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+  .third{
+      width: 100%;
+      background: transparent;
+  }
+
+}
