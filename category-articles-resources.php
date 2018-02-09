@@ -34,7 +34,7 @@
         <h4><a style="color: #009abf;font-size: 29px; text-decoration:none;" href="<?php the_sub_field('top_link_url') ?>" target="_blank"><?php the_sub_field('resource_title') ?></a></h4>
         <p><?php the_sub_field('resource_text') ?></p>
 
-<a class="cta-link" target="_blank" href="<?php the_sub_field('top_link_url') ?>">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+<a class="cta-link" target="_blank" href="<?php the_sub_field('top_link_url') ?>">READ MORE <i class="fa fa-chevron-right"></i></a>
 
 
           <div class="trending-tags">
