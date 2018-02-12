@@ -33,7 +33,7 @@
 
 <?php if( get_sub_field('filters_on_off') ){ $filtersOnOff = ''; }else{ $filtersOnOff = 'style="display:none"'; } ?>
 
-<div>
+<div <?php echo $filtersOnOff ?>>
   <div class='filter-by horizontal'>Sort by type:&nbsp;&nbsp;&nbsp;&nbsp;</div>
 <div class="button-group filter-button-group float-left" <?php echo $filtersOnOff ?>>
 <span class="button filter" data-filter="*">all categories <i class="fa fa-chevron-right"></i></span>
