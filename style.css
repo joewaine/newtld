@@ -4696,7 +4696,7 @@ list-style-type: none;
 
 
 .row.col-md-12.mt50.grid{
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
   .third{
@@ -4714,5 +4714,10 @@ list-style-type: none;
       width: 100%;
       background: transparent;
   }
+
+.button-group.filter-button-group {
+    float: left;
+    clear: both;
+}
 
 }
