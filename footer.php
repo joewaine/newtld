@@ -795,10 +795,31 @@ return u&&this.options.isJQueryFiltering?function(e){return u(e.element).is(t)}:
  -->
 
 <script>
-var $grid = $('.grid').isotope();
-// filter items on button click
+
+var $grid = $('.grid').isotope({
+      itemSelector: '.element-item',
+      percentPosition: true,
+      masonry: {
+        // use outer width of grid-sizer for columnWidth
+        columnWidth: '.grid-sizer'
+      }
+    });
+
+
+
+$('.filters-select').on( 'change', function() {
+  var filterValue = this.value;
+  $grid.isotope({ filter: filterValue });
+});
+
+
+
+
 $('.filter-button-group').on( 'click', 'span', function() {
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
 });
+
+
+
 </script>

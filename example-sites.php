@@ -33,40 +33,50 @@
 
 <?php if( get_sub_field('filters_on_off') ){ $filtersOnOff = ''; }else{ $filtersOnOff = 'style="display:none"'; } ?>
 
-
-
-<div class="button-group filter-button-group" <?php echo $filtersOnOff ?>>
+<div>
+  <div class='filter-by horizontal'>Sort by type:&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="button-group filter-button-group float-left" <?php echo $filtersOnOff ?>>
 <span class="button filter" data-filter="*">all categories <i class="fa fa-chevron-right"></i></span>
-       <?php while ( have_rows('categories_repeater') ) : the_row(); ?>
-
-<span class="button filter" data-filter=".<?php the_sub_field('category-slug') ?>"><?php the_sub_field('category') ?> <i class="fa fa-chevron-right"></i></span>
 
 
-        <?php endwhile; ?>
-
-<!--
-  <span class="button filter" data-filter=".cat">cat <i class="fa fa-chevron-right"></i></span>
-  <span class="button filter" data-filter=".dog">dog <i class="fa fa-chevron-right"></i></span>
-  <span class="button filter" data-filter=".mouse">mouse <i class="fa fa-chevron-right"></i></span>
- --></div>
-
-<!-- <select class="button-group filter-button-group">
-  <option data-filter="*">show all</option>
-  <option data-filter=".cat">cat</option>
-  <option data-filter=".dog">dog</option>
-  <option data-filter=".mouse">mouse</option>
-</select> -->
+<?php while ( have_rows('resource_type_repeater') ) : the_row(); ?>
+  <span class="button filter" data-filter=".<?php the_sub_field('resource-type-slug') ?>"><?php the_sub_field('resource-type') ?> <i class="fa fa-chevron-right"></i></span>
+ <?php endwhile; ?>
 
 
 </div>
+</div>
 
-    <div class="row col-md-12 mt50 grid margin-left:20px;">
+
+<div class="button-group filter-button-group" <?php echo $filtersOnOff ?>>
+<p>
+  <div class='filter-by'>Filter by:&nbsp;&nbsp;</div>
+<select class="filters-select">
+  <option value="*">show all</option>
+<?php while ( have_rows('categories_repeater') ) : the_row(); ?>
+
+  <option value=".<?php the_sub_field('category-slug') ?>"><?php the_sub_field('category') ?></option>
+
+ <?php endwhile; ?>
+
+</select>
+</p>
+</div>
+
+
+
+    <div class="row col-md-12 mt50 grid" style="margin-left:20px;padding-left:10px;padding-right:10px;">
+<div class="grid-sizer"></div>
+
+
 
 
        <?php while ( have_rows('example_sites_repeater') ) : the_row(); ?>
 
 
-<div class="third element-item transition <?php the_sub_field('category-slug') ?>">
+
+<div class="third element-item transition <?php the_sub_field('category-slug') ?> <?php the_sub_field('resource-type-slug') ?>">
+
   <div class="landing-panel l-grey" style="width:96%;margin: 0 auto 20px;">
 
 <!-- lilnks -->
