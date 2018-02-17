@@ -26,27 +26,17 @@
 
 
 <div class="row col-md-12">
-
-
 <!-- here it is -->
-
-
 <?php if( get_sub_field('filters_on_off') ){ $filtersOnOff = ''; }else{ $filtersOnOff = 'style="display:none"'; } ?>
-
 <div <?php echo $filtersOnOff ?>>
   <div class='filter-by horizontal'>Sort by type:&nbsp;&nbsp;&nbsp;&nbsp;</div>
 <div class="button-group filter-button-group float-left" <?php echo $filtersOnOff ?>>
 <span class="button filter" data-filter="*">all categories <i class="fa fa-chevron-right"></i></span>
-
-
 <?php while ( have_rows('resource_type_repeater') ) : the_row(); ?>
   <span class="button filter" data-filter=".<?php the_sub_field('resource-type-slug') ?>"><?php the_sub_field('resource-type') ?> <i class="fa fa-chevron-right"></i></span>
  <?php endwhile; ?>
-
-
 </div>
 </div>
-
 
 <div class="button-group filter-button-group" <?php echo $filtersOnOff ?>>
 <p>
