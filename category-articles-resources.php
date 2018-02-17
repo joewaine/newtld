@@ -13,7 +13,7 @@
   <?php the_sub_field('breadcrumb_text') ?>
 </div></div>
 
-    <div id="pageHeaderContent" class="pos-initial <?php echo $topofpage ?>">
+    <div id="pageHeaderContent" class="pos-initial <?php echo $topofpage ?>" style="margin-top:110px">
       <div class="container">
         <div class="row col-md-12">
         <h1 class="smaller-header">
