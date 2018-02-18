@@ -31,7 +31,7 @@
 <div class="row col-md-12">
 <!-- here it is -->
 <?php if( get_sub_field('filters_on_off') ){ $filtersOnOff = ''; }else{ $filtersOnOff = 'style="display:none"'; } ?>
-<div <?php echo $filtersOnOff ?> style="display:none;">
+<div <?php echo $filtersOnOff ?>>
   <div class='filter-by horizontal' style="color:#838383">Sort by type:&nbsp;&nbsp;&nbsp;&nbsp;</div>
 <div class="button-group filter-button-group float-left" <?php echo $filtersOnOff ?>>
 <span class="button filter" data-filter="*" style="color:#838383">all categories <i class="fa fa-chevron-right"></i></span>
@@ -88,7 +88,7 @@
         <?php while ( have_rows('resources_repeater') ) : the_row(); ?>
 
 
-<div class="third element-item transition <?php the_sub_field('category-slug') ?> <?php the_sub_field('resource-type-slug') ?>">
+<div class="third element-item transition <?php the_sub_field('resource-type-slug') ?> <?php the_sub_field('category-slug') ?>">
         <!-- <div class="col-sm-12 col-md-4"> -->
           <div class="landing-panel l-grey">
         <!-- lilnks -->

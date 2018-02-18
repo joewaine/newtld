@@ -45,7 +45,7 @@
   <option value="*">show all</option>
 <?php while ( have_rows('categories_repeater') ) : the_row(); ?>
 
-  <option value=".<?php the_sub_field('category-slug') ?>"><?php the_sub_field('category') ?></option>
+  <option value=".<?php the_sub_field('category-slug') ?>"><span class="button"><?php the_sub_field('category') ?></span></option>
 
  <?php endwhile; ?>
 
@@ -65,7 +65,7 @@
 
 
 
-<div class="third element-item transition <?php the_sub_field('category-slug') ?> <?php the_sub_field('resource-type-slug') ?>">
+<div class="third element-item transition <?php the_sub_field('resource-type-slug') ?> <?php the_sub_field('category-slug') ?>">
 
   <div class="landing-panel l-grey" style="width:96%;margin: 0 auto 20px;">
 
