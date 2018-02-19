@@ -154,7 +154,8 @@ foreach ($greyResourcesPanel['top_links_repeater'] as &$value) { ?>
 
 <!-- trending tags -->
 <div class="trending-tags">
-  TRENDING TOPICS:<br>
+  <span style="color:transparent">TRENDING TOPICS:</span>
+  <br>
 <?php // check if the repeater field has rows of data
 if( $greyResourcesPanel['trending_topics_repeater']){
   $i = 1;
