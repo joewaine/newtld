@@ -99,11 +99,38 @@
        <?php } ?>
 
           <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
+
+
+<?php if(get_sub_field('top_link_url')){?>
         <h4><a style="color: #009abf;font-size: 29px; text-decoration:none;" href="<?php the_sub_field('top_link_url') ?>" target="_blank"><?php the_sub_field('resource_title') ?></a></h4>
+      <?php } ?>
+
         <p><?php the_sub_field('resource_text') ?></p>
 
-<a class="cta-link" target="_blank" href="<?php the_sub_field('top_link_url') ?>">READ MORE <i class="fa fa-chevron-right"></i></a>
 
+<?php if(get_sub_field('top_link_url')){?>
+<a class="cta-link" target="_blank" href="<?php the_sub_field('top_link_url') ?>">READ MORE <i class="fa fa-chevron-right"></i></a>
+<?php } ?>
+
+
+<!-- website -->
+        <?php if(get_sub_field('site_image')){ ?>
+<div class="site-image">
+      <a target="_blank" href="<?php the_sub_field('site_link') ?>">
+
+        <?php if(get_sub_field('site_image')){ ?>
+           <img src="<?php the_sub_field('site_image') ?>">
+       <?php } ?>
+
+  <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
+            <div class="site-text">
+<?php the_sub_field('site_text') ?>
+        </div>
+</a>
+
+            </div>
+                   <?php } ?>
+<!-- website -->
 
           <div class="trending-tags">
         <?php the_sub_field('trending_tags_text') ?>

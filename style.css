@@ -3861,7 +3861,8 @@ h4.articles-header{
 .related-articles-3-col .landing-panel{
     padding: 0px 15px 30px 15px;
     /*height: 375px;*/
-    min-height: 375px;
+    /*min-height: 375px;*/
+    min-height: 382px;
 }
 
 
