@@ -3259,7 +3259,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6058', end
 
 .landing-panel{
     padding: 0px 30px 20px 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 /*
 -webkit-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
 -moz-box-shadow: 2px 2px 6px 0px rgba(219,219,219,1);
@@ -3864,13 +3864,17 @@ h4.articles-header{
     min-height: 375px;
 }
 
-/*
+
 .example-sites .landing-panel{
-    padding: 0px 15px 10px 15px;
-    height: auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.25);
 }
 
-*/
+
+
+
+
+
 
 
 .category-testimonials .landing-panel.l-grey p,
@@ -4635,7 +4639,8 @@ list-style-type: none;
 }
 
 .third{
-    width: 32.33%;
+    /*width: 32.33%;*/
+    width: 31.00%;
     background: transparent;
 }
 
