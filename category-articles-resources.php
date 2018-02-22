@@ -35,8 +35,8 @@
   <div class='filter-by horizontal' style="color:#838383">Sort by type:&nbsp;&nbsp;&nbsp;&nbsp;</div>
 <div class="button-group filter-button-group float-left" <?php echo $filtersOnOff ?>>
 <span class="button filter" data-filter="*" style="color:#838383">all categories <i class="fa fa-chevron-right"></i></span>
-<?php while ( have_rows('resource_type_repeater') ) : the_row(); ?>
-  <span class="button filter" data-filter=".<?php the_sub_field('resource-type-slug') ?>" style="color:#838383"><?php the_sub_field('resource-type') ?> <i class="fa fa-chevron-right"></i></span>
+<?php while ( have_rows('resources') ) : the_row(); ?>
+  <span class="button filter" data-filter=".<?php the_sub_field('slug') ?>" style="color:#838383"><?php the_sub_field('type') ?> <i class="fa fa-chevron-right"></i></span>
  <?php endwhile; ?>
 </div>
 </div>
