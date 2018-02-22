@@ -101,12 +101,12 @@
           <!-- <img src="https://i.imgur.com/IRJlsJs.png" alt="lightbulb"> -->
 
 
-<?php if(get_sub_field('top_link_url')){?>
+<?php if(get_sub_field('resource_title')){?>
         <h4><a style="color: #009abf;font-size: 29px; text-decoration:none;" href="<?php the_sub_field('top_link_url') ?>" target="_blank"><?php the_sub_field('resource_title') ?></a></h4>
-      <?php } ?>
+
 
         <p><?php the_sub_field('resource_text') ?></p>
-
+   <?php } ?>
 
 <?php if(get_sub_field('top_link_url')){?>
 <a class="cta-link" target="_blank" href="<?php the_sub_field('top_link_url') ?>">READ MORE <i class="fa fa-chevron-right"></i></a>
