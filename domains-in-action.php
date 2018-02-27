@@ -22,7 +22,7 @@
   <p>
 <?php the_sub_field('description') ?>
   </p>
-  <a class="more-articles white-text" href="<?php the_sub_field('more_link_url') ?>"><?php the_sub_field('more_link_text') ?> <i class="fa fa-chevron-right"></i></a>
+  <a style="display:none" class="more-articles white-text" href="<?php the_sub_field('more_link_url') ?>"><?php the_sub_field('more_link_text') ?> <i class="fa fa-chevron-right"></i></a>
 </div>
 </div>
 <div class="row facts-lists">

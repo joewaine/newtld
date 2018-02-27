@@ -16,8 +16,9 @@
           <h2 class="center"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'bootstrapcanvaswp' ); ?></h2>
           <p class="center">
           <?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'bootstrapcanvaswp' ); ?></p>
-		  <?php get_search_form(); ?>
-
+		<div class="searchreset">
+      <?php get_search_form(); ?>
+</div>
         </div><!-- /.blog-main -->
 </div>
 <br><br><br>

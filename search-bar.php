@@ -49,7 +49,7 @@
 <!-- <div id="loadMore">Load more</div> -->
 
   </div>
-      <div id="loadMore">Load more | <span class="slideup-hide-results">Hide results</span></div>
+      <div id="loadMore">Load more | <span class="slideup-hide-results">Hide results</span> | <a href="/what-we-do/accredited-registrars/">Buy Now</a></div>
 
 </section>
 

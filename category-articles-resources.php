@@ -43,7 +43,7 @@
 
 <div class="button-group filter-button-group" <?php echo $filtersOnOff ?>>
 <p>
-  <div class='filter-by'>Filter by:&nbsp;&nbsp;</div>
+  <div class='filter-by' style="color:#838383">Filter by:&nbsp;&nbsp;</div>
 <select class="filters-select" style="border: 1px solid #ccc;">
   <option value="*">show all</option>
 <?php while ( have_rows('categories_repeater') ) : the_row(); ?>

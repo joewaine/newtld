@@ -143,19 +143,26 @@ Share:
           <h2 class="center"><?php _e( 'Nothing Found', 'bootstrapcanvaswp' ); ?></h2>
           <p class="center">
           <?php _e( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'bootstrapcanvaswp' ); ?></p>
-		  <?php get_search_form(); ?>
+
+<div class="searchreset">
+      <?php get_search_form(); ?>
+  </div>
         <?php endif; // end current_user_can() check ?>
       <?php endif; ?>
 
 
+<?php if(!is_search()){?>
+
 <div class="share bottom-of-article text-center">
 <span class="social">Share:</span>
-
-
 <div class="icon-cover"><a class="lisharelink" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A8888%2Ffind-great-domain%2F&amp;title=Article%20Title"><div class="fa fa-linkedin-square" aria-hidden="true"></div></a></div>
 <div class="icon-cover"><a class="twsharelink" target="_blank" href="http://twitter.com/share?text=Article%20Title&amp;url=http%3A%2F%2Flocalhost%3A8888%2Ffind-great-domain%2F"><div class="fa fa-twitter-square" aria-hidden="true"></div></a></div>
 <div class="icon-cover"><a class="fbsharelink" target="_blank" href="https://www.facebook.com/dialog/feed?app_id=184683071273&amp;link=http%3A%2F%2Flocalhost%3A8888%2Ffind-great-domain%2F&amp;picture=https%3A%2F%2Fdonuts.domains%2Fwp-content%2Fuploads%2F2017%2F09%2Fslide-woman-w-camera.jpg&amp;name=Article%20Title"><div class="fa fa-facebook-square" aria-hidden="true"></div></a></div>
 </div>
+
+<?php } ?>
+
+
 </div>
 <!-- end of 8 -->
 <!-- beggingin of four -->
