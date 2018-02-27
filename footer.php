@@ -834,7 +834,7 @@ $('.filter-button-group').on( 'click', 'span', function() {
 
 <script>
 
-let FEED_URL = 'http://donuts.news/category/press-release/feed';
+let FEED_URL = 'https://donuts.news/category/press-release/feed';
 
 
 $.ajax({
