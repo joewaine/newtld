@@ -831,3 +831,20 @@ $('.filter-button-group').on( 'click', 'span', function() {
 
 
 </script>
+
+<script>
+
+let FEED_URL = 'http://donuts.news/category/press-release/feed';
+
+
+$.ajax({
+  url: FEED_URL,
+  dataType: "XML",
+  }).done(function(data){console.log(data)});
+
+
+
+
+</script>
+
+
