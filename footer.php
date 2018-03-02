@@ -479,7 +479,7 @@ $('body').on('click', '.collapse-bar', function() {
 
 
 
-alert(window.location.hash)
+
 
 
 </script>
