@@ -380,7 +380,7 @@ $(document).ready(function(){
 
 
 
-<?php if(is_page('team')){ ?>
+<?php if(is_page('who-we-are') || is_page('team')){ ?>
 
 <!-- staff page script -->
 <script>
