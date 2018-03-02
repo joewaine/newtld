@@ -379,6 +379,9 @@ $(document).ready(function(){
 </script>
 
 
+
+<?php if(is_page('team')){ ?>
+
 <!-- staff page script -->
 <script>
 
@@ -476,7 +479,11 @@ $('body').on('click', '.collapse-bar', function() {
 
 
 
+alert(window.location.hash)
+
+
 </script>
+<?php } ?>
 <!-- staff page script -->
 
 <script>
@@ -505,7 +512,7 @@ $(".news-item-container").click(function(){
 </script>
 
 
-<?php if(is_page('team')){ ?>
+<?php if(is_page('who-we-are') || is_page('team')){ ?>
 
 <script type="text/javascript">
 
@@ -832,9 +839,10 @@ $('.filter-button-group').on( 'click', 'span', function() {
 
 </script>
 
+
 <script>
 
-let FEED_URL = 'https://donuts.news/category/press-release/feed';
+let FEED_URL = 'http://donuts.news/category/press-release/feed';
 
 
 $.ajax({
@@ -846,5 +854,3 @@ $.ajax({
 
 
 </script>
-
-
