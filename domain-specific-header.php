@@ -2,12 +2,13 @@
 
 
 <?php if( get_sub_field('purple_header') ){ $ppheader = 'purple-pink-grad'; }else{ $ppheader = ''; } ?>
+<?php if( get_sub_field('orange_header') ){ $orangeheader = ' orange-yellow-grad'; }else{ $orangeheader = ''; } ?>
 
 <?php if(get_sub_field('anchor_tag')){?>
   <header id="<?php the_sub_field('anchor_tag') ?>" class="revert-second-menu blue-green-grad domain-specific-header class-on-off-switch <?php echo $ppheader; ?>" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
   <div class="background-icon <?php the_sub_field('background_icon'); ?>-image">icon</div>
     <?php }else{ ?>
-  <header class="revert-second-menu blue-green-grad domain-specific-header class-on-off-switch <?php echo $ppheader; ?>" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  <header class="revert-second-menu blue-green-grad domain-specific-header class-on-off-switch <?php echo $ppheader; ?> <?php echo $orangeheader; ?>" id="" style="background-color:white;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
   <div class="background-icon <?php the_sub_field('background_icon'); ?>-image">icon</div>
 <?php } ?>
 
