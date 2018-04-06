@@ -28,7 +28,7 @@
 <div class="row col-md-12">
 <!-- here it is -->
 <?php if( get_sub_field('filters_on_off') ){ $filtersOnOff = ''; }else{ $filtersOnOff = 'style="display:none"'; } ?>
-  <?php if( get_sub_field('category_filters_on_off') ){ $catfiltersOnOff = ''; }else{ $catfiltersOnOff = 'style="display:none"'; } ?>
+  <?php if( get_sub_field('category_filters_on_off') ){ $catfiltersOnOff = 'style="display:none"'; }else{ $catfiltersOnOff = ''; } ?>
 <div <?php echo $filtersOnOff ?>>
   <div <?php echo $catfiltersOnOff ?>>
   <div class='filter-by horizontal'>Sort by type:&nbsp;&nbsp;&nbsp;&nbsp;</div>
