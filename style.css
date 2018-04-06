@@ -4577,6 +4577,12 @@ list-style-type: none;
 }
 
 
+.background-icon.globe-image{
+        background-image: url(img/globe.svg);
+            bottom: 36px;
+}
+
+
 
 
 
