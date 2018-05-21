@@ -276,7 +276,7 @@ if( have_rows('modules') ):
 <section class="feature-info-carousel" style="background-color: #fff;">
 
 
- <img src="<?php the_sub_field('background_image'); ?>" style="width:100%;">
+<!-- <img src="<?php the_sub_field('background_image'); ?>" style="width:100%;"> -->
 
 <!-- repeater -->
 <!-- repeater -->
