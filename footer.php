@@ -834,15 +834,15 @@ $('.filter-button-group').on( 'click', 'span', function() {
 // get notifications to close
 
 
-$('.notification-bar .fa-close').click(function(){
+// $('.notification-bar .fa-close').click(function(){
 
 
-$('.notification-bar').slideUp();
+// $('.notification-bar').slideUp();
 
 
 
 
-});
+// });
 
 
 
