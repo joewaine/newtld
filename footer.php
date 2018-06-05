@@ -831,18 +831,28 @@ $('.filter-button-group').on( 'click', 'span', function() {
 
 
 
+// get notifications to close
+
+
+$('.notification-bar .fa-close').click(function(){
+
+
+$('.notification-bar').slideUp();
 
 
 
 
+});
 
 
+
+// get notifications to close
 </script>
 
 
 <script>
 
-let FEED_URL = 'http://donuts.news/category/press-release/feed';
+let FEED_URL = 'https://donuts.news/category/press-release/feed';
 
 
 $.ajax({

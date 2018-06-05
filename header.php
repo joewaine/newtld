@@ -96,7 +96,27 @@ if( $layoutFormat ){ ?>
 <!-- go here -->
 
 
+
+
+
 <header id="siteHeader">
+
+
+
+
+
+
+
+<?php if('notification_body'){  ?>
+<div class="notification-bar">
+<div class="container">
+
+<?php the_field('notification_body', 'option'); ?>
+
+</div>
+<i class="fa fa-close"></i>
+</div>
+<?}?>
 
     <nav id="site-navigation" class="navigation main-navigation" role="navigation">
       <div class="container">
