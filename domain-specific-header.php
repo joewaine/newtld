@@ -1,7 +1,7 @@
 
 
 
-<?php if( get_sub_field('purple_header') ){ $ppheader = 'purple-pink-grad'; }else{ $ppheader = ''; } ?>
+<?php if( get_sub_field('purple_header') ){ $ppheader = ''; }else{ $ppheader = ''; } ?>
 <?php if( get_sub_field('orange_header') ){ $orangeheader = ' orange-yellow-grad'; }else{ $orangeheader = ''; } ?>
 
 <?php if(get_sub_field('anchor_tag')){?>
