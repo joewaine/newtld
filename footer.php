@@ -864,3 +864,21 @@ $.ajax({
 
 
 </script>
+
+
+
+<script>
+
+if(window.document.location.pathname === '/great-domains/premium-domains/'){
+$(".buy-now-result").hide();
+$(".contact-us-result").show();
+}
+
+
+
+
+
+
+
+
+</script>

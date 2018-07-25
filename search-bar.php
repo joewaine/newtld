@@ -49,7 +49,7 @@
 <!-- <div id="loadMore">Load more</div> -->
 
   </div>
-      <div id="loadMore">Load more | <span class="slideup-hide-results">Hide results</span> | <a href="/what-we-do/accredited-registrars/">Buy Now</a></div>
+      <div id="loadMore">Load more | <span class="slideup-hide-results">Hide results</span> | <a class="buy-now-result" href="/what-we-do/accredited-registrars/">Buy Now</a><a target="_blank" class="contact-us-result" href="mailto:invest@great.domains" style="display:none;">Contact Us</a></div>
 
 </section>
 
