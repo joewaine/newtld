@@ -807,6 +807,7 @@ var combination = ['',''];
 
 $('.filters-select').on( 'change', function() {
   var filterValue = this.value;
+  console.log(filterValue)
   // combination[0] = (filterValue)
     if(filterValue === '*'){
       combination[1] = ''
@@ -831,17 +832,25 @@ $('.filter-button-group').on( 'click', 'span', function() {
 
 
 
+
+$(document).ready(function(){
+
+if(window.location.hash){
+  $grid.isotope({ filter: window.location.hash.replace("#", ".") });
+  $(".filters-select.form-control").val(window.location.hash.replace("#", "."));
+  }else{
+  console.log(false)
+  }
+
+});
+
+
+
 // get notifications to close
 
 
 $('.notification-bar .fa-close').click(function(){
-
-
-$('.notification-bar').slideUp();
-
-
-
-
+    $('.notification-bar').slideUp();
 });
 
 
